@@ -1,0 +1,107 @@
+
+/* Style for ListItem component */
+
+/* Style for the main container */
+.ListItem {
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: calc(20%-20px) ;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* Style for the image */
+.ListItem img {
+  width: 100%; /* Adjust according to your image size */
+  height: auto; /* Adjust according to your image size */
+  border-radius: 5px;
+}
+
+/* Style for the price */
+.ListItem span {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Style for the discounted price */
+.ListItem strike {
+  color: grey;
+  margin-right: 5px;
+}
+
+/* Style for the title */
+.ListItem h3 {
+  margin-top: 5px;
+}
+
+/* Style for the add to cart button */
+.ListItem button {
+  background-color: #ff4800; /* Adjust color as needed */
+  color: white;
+  border: none;
+  padding: 10px ;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Style for the button text */
+.ListItem button span {
+  margin-right: auto;
+}
+
+/* Header component CSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+/* Logo */
+.left span {
+  margin: 0; /* Remove default margin */
+  font-size: 1.5em; /* Adjust font size */
+  font-weight: bold; margin-right: 8px;
+  }
+
+/* Search container */
+.search-container {
+  position: relative; /* Position relative for absolute positioning of icon */
+}
+
+/* Search input */
+.search-container input[type="text"] {
+  padding: 8px; /* Adjust padding */
+  border: none;
+  border-radius: 5px;
+  width: 100%; /* Adjust width */  
+}
+
+/* Search icon */
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+  color: rgb(218, 91, 33); /* Icon color */
+  cursor: pointer;
+}
+
+/* Cart */
+.cart span {
+  margin-right: 8px; /* Space between text and icon */
+  font-size:1em;
+}
+.cart span sup{
+  background-color: #ff4800;
+  border-radius: 50%;
+  font-size: 0.5em;
+  padding: 2px;
+  font-weight: bold;
+}
