@@ -97,6 +97,11 @@ header {
 .cart span {
   margin-right: 8px; /* Space between text and icon */
   font-size:1em;
+  font-weight: bold;
+}
+.cart{
+  padding: 0px 10px;
+  margin: 0px 10px;
 }
 .cart span sup{
   background-color: #ff4800;
@@ -105,3 +110,33 @@ header {
   padding: 2px;
   font-weight: bold;
 }
+
+.subheader-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.subheader-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.subheader-container ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.subheader-container ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.subheader-container ul li a:hover {
+  background-color: #ff4800; 
+  border-radius: 5px;
+  color: #f0f0f0;
+}
+
